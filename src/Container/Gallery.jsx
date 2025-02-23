@@ -2,8 +2,9 @@
 
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { gallery1, gallery2,  } from "../assets"; // Import your images
+import { gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8 } from "../assets"; // Import your images
 import { SectionTitle } from "../Components";
+
 
 const Gallery = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,17 +28,17 @@ const Gallery = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
+ 
   // Define gallery images and their grid positions
   const images = [
     { src: gallery1, col: "col-span-2", row: "row-span-1" },
     { src: gallery2, col: "col-span-2", row: "row-span-2" },
-    { src: gallery1, col: "col-span-2", row: "row-span-1" },
-    { src: gallery2, col: "col-span-2", row: "row-span-2" },
-    { src: gallery2, col: "col-span-2", row: "row-span-2" },
-    { src: gallery2, col: "col-span-2", row: "row-span-2" },
-    { src: gallery1, col: "col-span-2", row: "row-span-1" },
-    { src: gallery1, col: "col-span-2", row: "row-span-1" },
+    { src: gallery3, col: "col-span-2", row: "row-span-1" },
+    { src: gallery4, col: "col-span-2", row: "row-span-2" },
+    { src: gallery5, col: "col-span-2", row: "row-span-2" },
+    { src: gallery6, col: "col-span-2", row: "row-span-2" },
+    { src: gallery7, col: "col-span-2", row: "row-span-1" },
+    { src: gallery8, col: "col-span-2", row: "row-span-1" },
   ];
 
   return (

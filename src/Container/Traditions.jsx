@@ -15,7 +15,7 @@ const Traditions = () => {
         {/* <p className={`${styles.ovoParagraph} text-center`}>Honoring family, prosperity, and unity through the wedding traditions of Batangas</p> */}
       </div>
 
-      <div className='flex flex-wrap flex-col sm:flex-cols-3 gap-4 p-9 sm:mx-[5rem] sm:py-9 relative z-10'>
+      <div className='flex flex-wrap sm:flex-cols-3 gap-4 p-9 sm:mx-[5rem] sm:py-9 relative z-10'>
         <div className={`${styles.flexCenter} ${styles.flexCol} flex-1 gap-5`}>
           <img src="img/dulot.svg" alt="" />
           <h1 className={`${styles.scriptHeading3} font-bold tracking-wider`}>Dulot</h1>

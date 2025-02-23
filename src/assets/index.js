@@ -6,6 +6,12 @@ import pic3 from './about3.svg'
 import pdfinvitation from './invitation.pdf'
 import gallery1 from './g1.svg'
 import gallery2 from './g2.svg'
+import gallery3 from './g3.svg'
+import gallery4 from './g4.svg'
+import gallery5 from './g5.svg'
+import gallery6 from './g6.svg'
+import gallery7 from './g7.svg'
+import gallery8 from './g8.svg'
 import dulot from './dulot.svg'
 import sabitan from './sabitan.svg'
 import kamaybigas from './kamaybigas.svg'
@@ -29,6 +35,12 @@ export{
     pdfinvitation,
     gallery1,
     gallery2,
+    gallery3,
+    gallery4,
+    gallery5,
+    gallery6,
+    gallery7,
+    gallery8,
     dulot,
     sabitan,
     kamaybigas,
