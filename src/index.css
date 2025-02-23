@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Ovo&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Ovo&family=Parisienne&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-script: "Beau Rivage", serif;
+  --font-ovo: "Ovo", serif;
+
+  --color-skin-white: #F0E3DA; 
+  --color-rusty-brown:#A74E1B;
+  --color-rusty-300:#C47C3B;
+  --color-accent-200:#C93C30;
+}
