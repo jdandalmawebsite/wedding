@@ -5,7 +5,7 @@ import SectionTitle from "./../Components/SectionTitle";
 const timeline = [
   { time: "9:30 AM", event: "Ceremony", icon: <FaRing /> },
   { time: "11:00 PM", event: "Photos Session", icon: <FaCameraRetro /> },
-  { time: "11:30 PM", event: "Shot Snack", icon: <FaGlassCheers /> },
+  { time: "11:30 PM", event: "Short Snack", icon: <FaGlassCheers /> },
   { time: "12:00 NN", event: "Start Program", icon: <FaMusic /> },
   { time: "1:00 PM", event: "Lunch", icon: <FaUtensils /> },
   { time: "3:00 PM", event: "Socials", icon: <FaBirthdayCake /> },
