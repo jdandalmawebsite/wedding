@@ -1,14 +1,14 @@
 const styles ={
 
-    scriptHeading1:"font-script text-rusty-brown text-3xl  sm:text-9xl",
+    scriptHeading1:"font-script text-rusty-brown text-4xl tracking-wide sm:text-9xl",
     scriptHeading2:"font-script text-2xl sm:text-7xl text-rusty-brown",
-    scriptHeading3:"font-script text-1xl sm:text-3xl",
+    scriptHeading3:"font-script text-4xl sm:text-3xl",
     scriptParagraph:"font-script  text-base",
 
     ovoHeading1:"font-ovo text-rusty-brown text-3xl  sm:text-9xl",
     ovoHeading2:"font-ovo text-2xl sm:text-4xl",
-    ovoHeading3:"font-ovo text-1xl sm:text-3xl",
-    ovoParagraph:"font-ovo text-base",
+    ovoHeading3:"font-ovo text-2xl sm:text-3xl",
+    ovoParagraph:"font-ovo text-xl",
 
     flexCenter: "flex justify-center items-center",
     flexRow:"flex flex-col ",

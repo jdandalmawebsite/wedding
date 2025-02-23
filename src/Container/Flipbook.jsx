@@ -2,7 +2,7 @@ import React from 'react'
 import HTMLFlipBook from 'react-pageflip';
 import { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
-import pdf from '/public/docs/invitation.pdf';
+import pdf from '/docs/invitation.pdf';
 
 import styles from '../styles';
 import { SectionTitle } from '../Components';
@@ -12,7 +12,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/b
 
 const Pages = React.forwardRef((props, ref) => {
     return (
-        <div className="bg-white " ref={ref} >
+        <div id="invitation" className="bg-white " ref={ref} >
             <div>{props.children}</div>
             {/* <div>Page number: {props.number}</div> */}
             <h3 className={`${styles.ovoParagraph} ${styles.flexCenter} text-rusty-brown sm:pt-[12rem]`}>Click to view invitation</h3>

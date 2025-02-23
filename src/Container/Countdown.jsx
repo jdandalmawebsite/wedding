@@ -48,7 +48,7 @@ const Countdown = () => {
         <img src="img/counter.png" alt="Image 1" className=' object-cover' />
           <div className="absolute inset-0 flex flex-col justify-center items-center text-rusty-brown p-4">
             <h1 className={`${styles.ovoHeading1}`}>{timeRemaining.days}</h1>
-            <p className={`${styles.ovoParagraph}`}>DAYS</p>
+            <p className={`${styles.ovoParagraph}`}>DAY</p>
           </div>
         </div>
         <div className="relative">
