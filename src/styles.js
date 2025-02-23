@@ -18,7 +18,7 @@ const styles ={
 
     grid:"grid",
 
-    bgsection:"bg-[url(/assets/bg2.svg)]"
+   
   
 
 
