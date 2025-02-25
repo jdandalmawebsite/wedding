@@ -33,8 +33,8 @@ const Countdown = () => {
   }
 
   if (timeRemaining === null) {
-    return <div className={` container min-h-80  `}>
-        <h1 className={`${styles.heading2} text-center `}>We're Getting Married Today!</h1>
+    return <div className={` container min-h-80 bg-skin-white sm:p-4 ${styles.flexCenter}`}>
+        <h1 className={`${styles.scriptHeading1} text-center  `}>We're Getting Married Today!</h1>
         </div>;
   }
 
